@@ -5,7 +5,7 @@ This is a personal portfolio website built using HTML, CSS, Bootstrap, and JavaS
 ## ✨ Live Site
 
 Your site is live at:  
-🔗 [https://danielapalvarez.github.io/danielaalvarez.github.io/](https://danielapalvarez.github.io/danielaalvarez.github.io/)
+🔗 https://danielapalvarez.github.io/nestdaniela.github.io/
 
 ## 📁 Structure
 
