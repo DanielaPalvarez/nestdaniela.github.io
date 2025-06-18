@@ -58,6 +58,88 @@
 </header>
 
   <main class="main">
+  <section class="plastic-problem">
+  <div class="container">
+    <h2>The Plastic Packaging Problem</h2>
+
+    <div class="stats-grid">
+
+      <div class="stat-card">
+        <div class="stat-number">36%</div>
+        <p>of global plastic packaging waste is from the food and beverage industry</p>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-number">9%</div>
+        <p>of all plastic ever produced has been recycled</p>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-number">1.2M tons</div>
+        <p><strong>Nestlé</strong> used 1.2 million metric tons of plastic packaging in 2022</p>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">♻️</div>
+        <p>Most packaging ends up in landfills or incinerators</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .plastic-problem {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .plastic-problem h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #1d3557;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1d3557;
+    margin-bottom: 10px;
+  }
+
+  .stat-icon {
+    font-size: 3rem;
+    color: #457b9d;
+    margin-bottom: 10px;
+  }
+
+  .stat-card p {
+    font-size: 1rem;
+    color: #333;
+  }
+</style>
+
 <!-- ======= Planteamiento del Problema ======= -->
 <section id="dilema-verde" class="section">
   <div class="container" data-aos="fade-up">
