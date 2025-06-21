@@ -1464,10 +1464,10 @@ body {
 
 .img-square {
   width: 100%;
-  max-width: 270px;
-  height: 270px;
+  max-width: 290px;
+  height: 290px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
