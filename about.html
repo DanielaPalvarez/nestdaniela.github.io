@@ -446,9 +446,13 @@
             <p><i class="bi bi-quote quote-icon-left"></i> Achieved black belt in this Polynesian martial art, which taught focus, strength, and discipline. <i class="bi bi-quote quote-icon-right"></i></p>
           </div>
         </div>
+        <!-- Flechas de navegación -->
+      <div class="swiper-button-prev" style="color: #0d6efd;"></div>
+      <div class="swiper-button-next" style="color: #0d6efd;"></div>
 
-      </div>
+      <!-- Paginación -->
       <div class="swiper-pagination"></div>
+
     </div>
   </div>
 </section>
@@ -491,3 +495,31 @@
 </script>
 
 </body>
+<div class="slides-3 swiper init-swiper">
+  <div class="swiper-config d-none">
+    {
+      "loop": true,
+      "speed": 600,
+      "autoplay": {
+        "delay": 5000
+      },
+      "slidesPerView": 1,
+      "spaceBetween": 30,
+      "pagination": {
+        "el": ".swiper-pagination",
+        "clickable": true
+      },
+      "navigation": {
+        "nextEl": ".swiper-button-next",
+        "prevEl": ".swiper-button-prev"
+      },
+      "breakpoints": {
+        "768": {
+          "slidesPerView": 2
+        },
+        "992": {
+          "slidesPerView": 3
+        }
+      }
+    }
+  </div>
